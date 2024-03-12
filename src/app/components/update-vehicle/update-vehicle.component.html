@@ -1,0 +1,29 @@
+<div class="parent">
+    <div class="child">
+       <form action="" [formGroup]="vehicle">
+        <h1>Update Vehicle</h1>
+        <label for="">Vehicle Name:</label>
+        <input type="text" placeholder="Enter Vehicle Name" formControlName="make">
+        <br>
+        <label for="">Model:</label>
+        <input type="text" placeholder="Enter Vehicle Model"formControlName="model">
+        <br>
+        <label for="">Vehicle Year:</label>
+        <input type="number" placeholder="Enter Vehicle Year"formControlName="year">
+        <br>
+        <label for="">Vehicle FuelType:</label>
+        <input type="text" placeholder="Enter Vehicle FuelType" formControlName="fuelType">
+        <br>
+        <label for="">Vehicle transmission:</label>
+        <input type="text" placeholder="Enter Vehicle transmission"formControlName="transmission">
+        <br>
+        <label for="">Vehicle Image</label>
+        <input type="text" placeholder="Enter Image URL" formControlName="image">
+        <div class="button">
+            <button class="btn btn-success" (click)="update()">Update</button>
+        </div>
+       
+       </form>
+
+    </div>
+</div>

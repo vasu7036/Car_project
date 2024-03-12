@@ -1,0 +1,22 @@
+<div class="main">
+    <div class="top">
+        <div class="hleft">
+            <img src="/assets/logo.png" alt="" height="40px" width="200px" >
+
+        </div>
+        <div>
+            <input type="text" placeholder="Search Vehicle" style="height: 30px; width: 380px; padding: 20px;" [(ngModel)]="term">
+            <button style="height: 44px;width: 124px; margin: 0; background-color: red;color: white;border: none;" (click)="search()">SEARCH</button>
+        </div>
+        <div class="hright">
+            <p routerLink="home">Home</p>
+            <p>About</p>
+            <p routerLink="details">Details</p>
+            <p>Contact</p>
+
+        </div>
+
+    </div>
+    <div class="buttom">
+        <router-outlet></router-outlet>
+    </div>

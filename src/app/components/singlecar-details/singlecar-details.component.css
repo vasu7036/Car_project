@@ -1,0 +1,42 @@
+.parent{
+    height: 100vh;
+    width: 100vw;
+    /* background-color: red; */
+    /* background-color: brown; */
+}
+.child1{
+    height: 20%;
+    width: 100%;
+    /* background-color: antiquewhite; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.child2{
+    height: 100%;
+    width: 100%;
+    /* background-color: blue; */
+    display: flex;
+    
+}
+.left{
+    height: 110%;
+    width: 55%;
+    /* background-color: bisque; */
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+.right{
+    height: 100%;
+    width: 45%;
+    /* background-color: white; */
+}
+label{
+    width: 120px;
+    /* margin: 10px; */
+}
+.r{
+    margin-left: 20px;
+}

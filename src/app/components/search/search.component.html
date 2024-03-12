@@ -1,0 +1,77 @@
+<section class="section2">
+    <div class="s2left" [formGroup]="cardetails">
+       <div>
+        <label for="">Select Car</label >
+        <br>
+        <select name="" id="" formControlName="one">
+            <option value="" selected >Make</option>
+            <option value="Toyota">Toyota</option>
+            <option value="BMW">BMW</option>
+            <option value="Honda">Honda</option>
+            <option value="Nissan">Nissan</option>
+        </select>
+       </div>
+
+       <div>
+        <label for="">Select Model</label>
+        <br>
+        <select name="" id="" formControlName="two">
+            <option value="" selected >Model</option>
+            <option >Corolla</option>
+            <option >Civic</option>
+            <option >Mustang</option>
+            <option >Equinox</option>
+        </select>
+       </div>
+
+       <div>
+        <label for="">Select Year</label>
+        <br>
+        <select name="" id="" formControlName="three">
+            <option value="" selected>Year</option>
+            <option >2019</option>
+            <option >2020</option>
+            <option >2021</option>
+            <option >2022</option>
+        </select>
+       </div>
+
+       <div>
+        <label for="">Select Bodystyle</label>
+        <br>
+        <select name="" id="">
+            <option value="" selected>Body Style</option>
+            <option value="">sedan</option>
+            <option value="">SUV</option>
+            <option value="">Sports</option>
+            <option value="">Benz</option>
+        </select>
+       </div>
+
+       <div>
+        <label for="">Select Vehicle Status</label>
+        <br>
+        <select name="" id="">
+            <option value="" selected>Vehicle Status</option>
+            <option value="">1</option>
+            <option value="">2</option>
+            <option value="">3</option>
+            <option value="">4</option>
+        </select>
+       </div>
+
+    </div>
+    <div class="s2right">
+        <div>
+            <h4><b>PRICE RANGE</b></h4>
+            <input type="range">
+        </div>
+        <div class="button">
+            <button (click)="search()">Search the Vehicle</button>
+            <button (click)="advancesearch()">Advance Search</button>
+        </div>
+
+    </div>        
+
+
+</section>

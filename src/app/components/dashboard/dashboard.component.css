@@ -1,0 +1,34 @@
+.main{
+    height: 100vh;
+    width: 100vw;
+    /* background-color: antiquewhite; */
+    /* overflow: auto; */
+    /* display: flex; */
+
+}
+.top{
+    height: 15%;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+
+}
+p{
+    margin: 15px;
+}
+.hleft{
+    margin-left: 30px;
+    /* width: 50%; */
+    
+
+}
+.hright{
+    margin-right: 30px;
+    /* width: 50%; */
+    display: flex;
+
+}

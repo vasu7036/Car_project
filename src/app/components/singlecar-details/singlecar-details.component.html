@@ -1,0 +1,58 @@
+<div class="parent">
+        <div class="child1">
+            <div style="margin-left: 50px;">
+                <b style="font-size: xx-large;">{{carDetails.make}}</b>
+                <p>{{carDetails.features}}</p>
+            </div>
+            <div style="margin-right: 50px;">
+                <p style="color: red; font-size: xx-large;">{{carDetails.price | doller}}</p>
+
+            </div>
+
+        </div>
+        <div class="child2">
+            <div class="left">
+                <img src="{{carDetails.image}}" alt="" height="100%" width="90%">
+
+            </div>
+            <div class="right">
+                <div class="r">
+                <h1>Description</h1>
+                <label for="">Make</label>
+                <span>{{carDetails.make}}</span>
+                <hr>
+                <label for="">Model</label>
+                <span>{{carDetails.model}}</span>
+                <hr>
+                <label for="">Year</label>
+                <span>{{carDetails.year}}</span>
+                <hr>
+                <label for="">Milege</label>
+                <span>{{carDetails.mileage}}  k/h</span>
+                <hr>
+                <label for="">Color</label>
+                <span>{{carDetails.color}}</span>
+                <hr>
+                <label for="">Fuel Type</label>
+                <span>{{carDetails.fuelType}}</span>
+                <hr>
+                <label for="">Transmission</label>
+                <span>{{carDetails.transmission}}</span>
+                <hr>
+                <label for="">Engine</label>
+                <span>{{carDetails.engine}}</span>
+                <hr>
+                <label for="">Hoesepower</label>
+                <span>{{carDetails.horsepower}}</span>
+                <hr>
+                <label for="">Features</label>
+                <span>{{carDetails.features}}</span>
+                <hr>
+                <label for="">owners</label>
+                <span>{{carDetails.owners}}</span>
+                </div>
+
+            </div>
+
+        </div>
+    </div>

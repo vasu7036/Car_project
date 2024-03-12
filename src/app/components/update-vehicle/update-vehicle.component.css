@@ -1,0 +1,23 @@
+.parent{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.child{
+    height: 440px;
+    width: 500px;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+label{
+    width: 120px;
+    margin: 10px;
+}
+.button{
+    display: flex;
+    justify-content: right;
+}

@@ -1,0 +1,39 @@
+<div class="main">
+    <div class="additional">
+        <app-search></app-search>
+    </div>
+    <div class="parent" *ngFor="let car of allCars">
+        <div class="top">
+            <img src="{{car.image}}" alt="" height="100%" width="100%">
+
+        </div>
+        <div class="buttom" >
+            <b style="font-size: x-large;">{{car.make}}</b>
+            <div class="list">
+                <span>{{car.year}}</span>
+                <span>{{car.model}}</span>
+                <span>{{car.transmission}}</span>
+                <span>{{car.fuelType}} hp</span>
+                
+            </div>
+            <div >
+                <p style="text-align: center;"><span style="color: red;">features:</span>  {{car.features}}</p>
+            </div>
+            <div>
+                <del>{{car.mileage | doller}}</del>
+                <span style="color: red;">{{car.price | doller}}</span>
+            </div>
+            <div>
+                <button class="btn btn-warning" (click)="details(car.id)">Details</button>
+                <button class="btn btn-primary" (click)="updatevehicle(car.id)">Update</button>
+                <button class="btn btn-danger">Delete</button>
+            </div>
+
+        </div>
+
+
+    </div>
+    <h1 *ngIf="allCars.length==0">no match found</h1>
+
+    
+</div>
