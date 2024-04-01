@@ -17,8 +17,14 @@
         <label for="">Vehicle transmission:</label>
         <input type="text" placeholder="Enter Vehicle transmission"formControlName="transmission">
         <br>
+        <label for="">Color:</label>
+        <input type="text" formControlName="color">
+        <br>
         <label for="">Vehicle Image</label>
         <input type="text" placeholder="Enter Image URL" formControlName="image">
+        <br>
+        <label for="">price:</label>
+        <input type="number" formControlName="price">
         <div class="button">
             <button class="btn btn-success" (click)="update()">Update</button>
         </div>

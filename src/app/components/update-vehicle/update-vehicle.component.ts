@@ -32,7 +32,9 @@ export class UpdateVehicleComponent {
     year:new FormControl(),
     fuelType:new FormControl(),
     transmission:new FormControl(),
-    image:new FormControl()
+    image:new FormControl(),
+    color:new FormControl(),
+    price:new FormControl()
   })
   update(){
     this._carService.updatevehicle(this.id,this.vehicle.value).subscribe(

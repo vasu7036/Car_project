@@ -27,27 +27,20 @@
       "fuelType": "Gasoline",
       "transmission": "CVT",
       "image": "https://wallpaperset.com/w/full/b/4/b/17661.jpg",
+      "color": "black",
+      "price": 35000,
       "id": 2
     },
     {
-      "id": 3,
       "make": "Ford",
       "model": "Mustang",
       "year": 2020,
-      "color": "Red",
-      "mileage": 15000,
-      "price": 35000,
       "fuelType": "Gasoline",
       "transmission": "Manual",
-      "engine": "5.0L V8",
-      "horsepower": 450,
-      "features": [
-        "Leather Seats",
-        "Navigation System",
-        "Heated Seats"
-      ],
-      "owners": 1,
-      "image": "/assets/ford.jpg"
+      "image": "/assets/ford.jpg",
+      "color": "Red",
+      "price": 600000,
+      "id": 3
     },
     {
       "id": 4,
@@ -150,24 +143,13 @@
       "image": "/assets/audi.jpg"
     },
     {
-      "id": 9,
       "make": "Mercedes-Benz",
       "model": "E-Class",
       "year": 2020,
-      "color": "Silver",
-      "mileage": 18000,
-      "price": 42000,
       "fuelType": "Gasoline",
       "transmission": "Automatic",
-      "engine": "2.0L 4-cylinder",
-      "horsepower": 255,
-      "features": [
-        "MBUX Infotainment",
-        "Heated Steering Wheel",
-        "Air Suspension"
-      ],
-      "owners": 2,
-      "image": "/assets/BMW.jpg"
+      "image": "https://static.autox.com/uploads/2022/05/2022-Mercedes-Benz-C-Class-Front-Quarter-Static-2-.jpg",
+      "id": 9
     },
     {
       "id": 10,
@@ -370,24 +352,13 @@
       "image": "/assets/ford.jpg"
     },
     {
-      "id": 20,
       "make": "Mercedes-Benz",
       "model": "GLE 350",
       "year": 2020,
-      "color": "Silver",
-      "mileage": 18000,
-      "price": 46000,
       "fuelType": "Gasoline",
       "transmission": "Automatic",
-      "engine": "2.0L 4-cylinder",
-      "horsepower": 255,
-      "features": [
-        "MBUX Infotainment",
-        "Panoramic Sunroof",
-        "Adaptive Cruise Control"
-      ],
-      "owners": 2,
-      "image": "/assets/BMW.jpg"
+      "image": "https://static.autox.com/uploads/2020/12/mercedes-amg-glc-43-coupe-review.jpg",
+      "id": 20
     },
     {
       "id": 21,
@@ -406,8 +377,7 @@
         "Wireless Charging",
         "Parking Assistance"
       ],
-      "owners": 1,
-      "image": "/assets/BMW.jpg"
+      "owners": 1
     },
     {
       "id": 22,
